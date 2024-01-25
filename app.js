@@ -1,7 +1,7 @@
-const containers = document.querySelectorAll(".container");  // permet de selectionner tout ce qu'il y a dans la div container
+const questions = document.querySelectorAll(".question");  // permet de selectionner tout ce qu'il y a dans la div question
 
-containers.forEach(container => {
-    container.addEventListener("click", () => { 
-        container.classList.toggle("active");
+questions.forEach((question) => {
+    question.addEventListener("click", () => { 
+        question.classList.toggle("active");
     })
 });

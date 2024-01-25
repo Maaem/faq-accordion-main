@@ -40,7 +40,7 @@ h2 {
     transition: max-height 1.4s ease;
 }
 
-.container:active .answer {
+.question.active .answer {
     max-height: 300px;
 }
 
@@ -50,25 +50,9 @@ h2 {
     display: flex;
 }
 
-/* div first_question */
+/* div question */
 
-.first_question {
-    padding-bottom: 1rem;
-    border-bottom: 2px solid hsl(275, 100%, 97%);
-    cursor: pointer;
-}
-
-/* div second_question */
-
-.second_question {
-    padding-bottom: 1rem;
-    border-bottom: 2px solid hsl(275, 100%, 97%);
-    cursor: pointer;
-}
-
-/* div third_question */
-
-.third_question {
+.question {
     padding-bottom: 1rem;
     border-bottom: 2px solid hsl(275, 100%, 97%);
     cursor: pointer;
