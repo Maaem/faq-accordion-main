@@ -1,0 +1,88 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+/* tout */
+body {
+    background-image: url(./assets/images/background-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-color: hsl(275, 100%, 97%);
+    height: 100%;
+    font-family: 'Work Sans', sans-serif;
+    color: hsl(292, 42%, 14%);
+}
+
+.container {
+    border: 2px solid green;
+    background-color: hsl(0, 0%, 100%);
+    max-width: 500px; /* permet de centrer */
+    border-radius: 1rem; 
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    padding: 2rem;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.header_first, .header_second, .header_third, .header_fourth {
+    display: flex;
+    justify-content: space-between;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+}
+
+.container:active .answer {
+    max-height: 300px;
+}
+
+/* div header_container */
+
+.header_container {
+    display: flex;
+}
+
+/* div first_question */
+
+.first_question {
+    padding-bottom: 1rem;
+    border-bottom: 2px solid hsl(275, 100%, 97%);
+    cursor: pointer;
+}
+
+/* div second_question */
+
+.second_question {
+    padding-bottom: 1rem;
+    border-bottom: 2px solid hsl(275, 100%, 97%);
+    cursor: pointer;
+}
+
+/* div third_question */
+
+.third_question {
+    padding-bottom: 1rem;
+    border-bottom: 2px solid hsl(275, 100%, 97%);
+    cursor: pointer;
+}
+
+/* div fourth_question */
+
+.fourth_question {
+    cursor: pointer;
+}
+
+/* footer */
+
+.attribution {
+    color: aqua;
+}
+
