@@ -9,7 +9,7 @@ questions.forEach((question) => {
 
 // Modifier l'image
 
-//  img_1 et img_2 sont les chemins vers vos images
+//  img_1 et img_2 = chemin img
 const img_1 = "assets/images/icon-plus.svg";
 const img_2 = "assets/images/icon-minus.svg";
 
